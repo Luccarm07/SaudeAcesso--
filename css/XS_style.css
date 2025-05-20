@@ -1,0 +1,27 @@
+/* XS_style.css */
+@media screen and (max-width: 767px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .branding h1 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .bottom-nav .nav-item {
+    font-size: 1rem;
+  }
+
+  .primary {
+    font-size: 0.95rem;
+  }
+}

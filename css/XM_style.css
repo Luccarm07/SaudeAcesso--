@@ -1,0 +1,21 @@
+/* XM_style.css */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+  .branding h1 {
+    font-size: 2rem;
+  }
+
+  .bottom-nav .nav-item {
+    font-size: 1.2rem;
+  }
+}
