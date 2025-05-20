@@ -21,6 +21,9 @@ document.querySelectorAll('button:not(.disabled)').forEach(button => {
     ) {
       const confirmacao = confirm(`Você deseja continuar com: "${texto}"?`);
       if (!confirmacao) e.preventDefault();
+      else{
+        print("nafjw")
+      }
     }
   });
 });
