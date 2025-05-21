@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", sans-serif;
-  background-color: #f4f6f8;
+  
 }
 
 body {
@@ -24,9 +24,7 @@ header {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.branding img {
-  height: 50px;
-}
+
 
 .container {
   padding: 1rem;
@@ -102,3 +100,36 @@ header {
   color: #00796b;
   font-weight: bold;
 }
+
+.footer-menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.card-fotos{
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+.conteiner-integrantes{
+  display: flex; 
+  padding: 200px;
+  justify-content: space-around;
+}
+
+

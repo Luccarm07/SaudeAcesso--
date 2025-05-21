@@ -23,6 +23,18 @@
 
   .primary {
     font-size: 0.95rem;
-    background-color: aliceblue;
+   
+  }
+
+  .foto{
+    width: 240px;
+    height: 300px;
+    padding-left: 5px;
+    align-items: center;
+  }
+
+  .card-fotos{
+   width: 300px;
+   height: 350px;
   }
 }

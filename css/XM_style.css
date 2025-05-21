@@ -9,7 +9,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: aliceblue;
+    
   }
 
   .branding h1 {
@@ -19,4 +19,57 @@
   .bottom-nav .nav-item {
     font-size: 1.2rem;
   }
+
+  #Consultas {
+    position: absolute;
+    right: 30px;
+    width: 60%;
+    height: 80%;
+  }
+
+   #AssistenteVirtual {
+    position: absolute;
+    left: 30px;
+    width: 32%;
+    height: 140px;
+    
+  }
+
+  #Resultados{
+    position: absolute;
+    left: 30px;
+    width: 32%;
+    top: 250px;
+    
+
+  }
+
+  #Receitas{
+    position: absolute;
+    left:30px ;
+    width: 32%;
+    top: 400px;
+  }
+
+  #Solicitação_De_Exame{
+    position: absolute;
+    left: 30px;
+    width: 32%;
+    top: 550px;
+    
+
+  }
+
+.foto{
+    width: 240px;
+    height: 300px;
+    padding-left: 5px;
+    align-items: center;
+  }
+
+  .card-fotos{
+   width: 300px;
+   height: 350px;
+  }
+  
 }

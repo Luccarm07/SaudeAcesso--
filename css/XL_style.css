@@ -17,7 +17,7 @@
     position: absolute;
     right: 30px;
     width: 60%;
-    height: 95%;
+    height: 85%;
   }
 
    #AssistenteVirtual {
@@ -31,7 +31,7 @@
     position: absolute;
     left: 30px;
     width: 35%;
-    top: 210px;
+    top: 230px;
 
   }
 
@@ -39,22 +39,30 @@
     position: absolute;
     left:30px ;
     width: 35%;
-    top: 350px;
+    top: 390px;
   }
 
   #Solicitação_De_Exame{
     position: absolute;
     left: 30px;
     width: 35%;
-    top: 490px;
-    background-color: aliceblue;
+    top: 550px;
+    
 
+  }
+  
+  .foto{
+    width: 240px;
+    height: 300px;
+    padding-left: 20px;
+    align-items: center;
+  }
+
+  .card-fotos{
+   width: 300px;
+   height: 500px;
+   
   }
 
 
-
-
-
   }
-
-
