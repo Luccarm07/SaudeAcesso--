@@ -1,6 +1,6 @@
 # SaudeAcesso
 projeto-front
-# 🏥 Sistema de Saúde - Sprint 01
+# 🏥 Saude e Acesso - Sprint 01
 
 Este é um projeto web desenvolvido como parte da Sprint 01, com foco em acessibilidade, usabilidade e responsividade. O sistema simula a interface de um portal de saúde, permitindo aos usuários navegar por funcionalidades essenciais de forma clara, interativa e amigável.
 
@@ -9,7 +9,6 @@ Este é um projeto web desenvolvido como parte da Sprint 01, com foco em acessib
 ## 🌐 Páginas do Sistema
 
 - **Home (`index.html`)**: Apresenta o sistema com uma interface inicial acessível.
-- **Integrantes (`integrantes.html`)**: Lista os membros da equipe do projeto.
 - **FAQ (`faq.html`)**: Responde dúvidas frequentes sobre o uso da plataforma.
 - **Contato (`contato.html`)**: Permite o contato com a equipe responsável.
 - **Consultas (`consultas.html`)**: Página para agendamento de consultas médicas.
@@ -23,7 +22,7 @@ Este é um projeto web desenvolvido como parte da Sprint 01, com foco em acessib
 
 - **HTML5**
 - **CSS3**
-  - Arquivos separados para responsividade: `base.css`, `xs.css`, `md-lg.css`
+  - Arquivos separados para responsividade: `geral_style.css`, `XL_style.css`, `XM_style.css`,`XS_style.css.`
 - **JavaScript**
   - Validação de botões
   - Simulação de troca de abas
