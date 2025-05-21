@@ -128,7 +128,7 @@ header {
 
 .conteiner-integrantes{
   display: flex; 
-  padding: 200px;
+  padding: 201px;
   justify-content: space-around;
 }
 
