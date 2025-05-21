@@ -16,8 +16,8 @@
   #Consultas {
     position: absolute;
     right: 30px;
-    width: 58%;
-    height: 95%;
+    width: 60%;
+    height: 85%;
   }
 
    #AssistenteVirtual {
@@ -31,7 +31,7 @@
     position: absolute;
     left: 30px;
     width: 35%;
-    top: 210px;
+    top: 230px;
 
   }
 
@@ -39,14 +39,14 @@
     position: absolute;
     left:30px ;
     width: 35%;
-    top: 350px;
+    top: 390px;
   }
 
   #Solicitação_De_Exame{
     position: absolute;
     left: 30px;
     width: 35%;
-    top: 490px;
+    top: 550px;
     
 
   }
