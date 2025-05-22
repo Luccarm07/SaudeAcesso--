@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solicitação de Exames</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="branding">
+      <h1>SAÚDE E ACESSO</h1>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main class="container">
+    <h2>Solicitar Exame</h2>
+    <form id="form-exame">
+      <label for="nome">Nome do Paciente:</label>
+      <input type="text" id="nome" placeholder="Digite seu nome" />
+
+      <label for="exame">Tipo de Exame:</label>
+      <input type="text" id="exame" placeholder="Digite ou selecione um exame" />
+
+      <label for="detalhes">Observações (opcional):</label>
+      <textarea id="detalhes" placeholder="Observações sobre o exame"></textarea>
+
+      <div id="exames-comuns">
+        <span class="exame-opcao">Hemograma</span>
+        <span class="exame-opcao">Raio-X</span>
+        <span class="exame-opcao">Eletrocardiograma</span>
+        <span class="exame-opcao">Ultrassonografia</span>
+        <span class="exame-opcao">Ressonância Magnética</span>
+        <span class="exame-opcao">Tomografia Computadorizada</span>
+        <span class="exame-opcao">Endoscopia</span>
+        <span class="exame-opcao">Colonoscopia</span>
+        <span class="exame-opcao">Glicemia</span>
+        <span class="exame-opcao">Exame de Urina</span>
+        <span class="exame-opcao">Mamografia</span>
+        <span class="exame-opcao">Teste de COVID-19</span>
+        <span class="exame-opcao">Sorologia</span>
+        <span class="exame-opcao">Papanicolau</span>
+        <span class="exame-opcao">Audiometria</span>
+      </div>
+
+      <button type="submit">Solicitar Exame</button>
+    </form>
+
+    <div id="mensagem-sucesso" class="mensagem-erro">
+      Exame "<span id="exame-confirmado"></span>" para <strong><span id="nome-confirmado"></span></strong> foi solicitado com sucesso!
+      <button id="fechar-mensagem">✖</button>
+    </div>
+
+    <div id="mensagem-erro" class="mensagem-erro"></div>
+
+    <h3>Exames Solicitados</h3>
+    <ul id="exames"></ul>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <nav class="footer-menu">
+      <a href="index.html">🏠 Início</a>
+      <a href="contatos.html">📅 Contatos</a>
+      <a href="faq.html">💬 Perguntas Frequentes</a>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
