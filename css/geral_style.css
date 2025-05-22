@@ -118,18 +118,6 @@ header {
   font-weight: bold;
 }
 
-.card-fotos{
-  background-color: white;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 
-}
-
-.conteiner-integrantes{
-  display: flex; 
-  padding: 201px;
-  justify-content: space-around;
-}
 
 
