@@ -9,7 +9,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: aliceblue;
+    
   }
 
   .branding h1 {
@@ -19,4 +19,74 @@
   .bottom-nav .nav-item {
     font-size: 1.2rem;
   }
+
+  #Consultas {
+    position: absolute;
+    right: 30px;
+    width: 60%;
+    height: 80%;
+  }
+
+   #AssistenteVirtual {
+    position: absolute;
+    left: 30px;
+    width: 32%;
+    height: 140px;
+    
+  }
+
+  #Resultados{
+    position: absolute;
+    left: 30px;
+    width: 32%;
+    top: 250px;
+    
+
+  }
+
+  #Receitas{
+    position: absolute;
+    left:30px ;
+    width: 32%;
+    top: 400px;
+  }
+
+  #Solicitação_De_Exame{
+    position: absolute;
+    left: 30px;
+    width: 32%;
+    top: 550px;
+    
+
+  }
+
+  .conteiner-integrantes {
+  display: flex;
+  flex-wrap: wrap; 
+  padding: 50px;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.card-fotos {
+  width: 300px;
+  height: 501px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+.foto {
+  width: 240px;
+  height: 300px;
+  object-fit: cover; 
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+  
 }
