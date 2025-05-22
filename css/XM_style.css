@@ -62,10 +62,10 @@
 
   .conteiner-integrantes {
   display: flex;
-  flex-wrap: wrap; /* Permite que os itens quebrem linha */
+  flex-wrap: wrap; 
   padding: 50px;
   justify-content: center;
-  gap: 20px; /* Espaçamento entre os itens */
+  gap: 20px; 
 }
 
 .card-fotos {
@@ -83,7 +83,7 @@
 .foto {
   width: 240px;
   height: 300px;
-  object-fit: cover; /* Mantém proporção da imagem */
+  object-fit: cover; 
   border-radius: 8px;
   margin-bottom: 10px;
 }
