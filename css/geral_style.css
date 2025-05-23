@@ -67,13 +67,13 @@ header {
   margin-top: 0.5rem;
 }
 
-.sub-buttons .disabled {
-  flex: 1;
+.sub-buttons .botao{
+  flex: 0.5;
   background-color: #ddd;
   border: none;
   border-radius: 8px;
   padding: 0.5rem;
-  cursor: not-allowed;
+  
 }
 
 .bottom-nav {
@@ -150,7 +150,7 @@ header {
   .hidden{
     display: none;
   }
-  
+
   .form-section label {
       display: block;
       margin-top: 10px;
