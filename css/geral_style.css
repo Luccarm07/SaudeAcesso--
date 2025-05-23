@@ -67,13 +67,13 @@ header {
   margin-top: 0.5rem;
 }
 
-.sub-buttons .disabled {
+.sub-buttons .botao{
   flex: 1;
   background-color: #ddd;
   border: none;
   border-radius: 8px;
   padding: 0.5rem;
-  cursor: not-allowed;
+  
 }
 
 .bottom-nav {
@@ -556,3 +556,21 @@ ul#exm-lista li {
 .botao-download:hover {
   background-color: #5147cc;
 }
+
+/*--estilo para esconder consulta --*/
+
+  .hidden{
+    display: none;
+  }
+
+  .form-section label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    .form-section input, .form-section select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }

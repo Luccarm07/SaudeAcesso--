@@ -26,18 +26,39 @@
       <small>seja guiado passo a passo</small>
     </section>
 
-    <section class="card " id="Consultas">
+     <section class="card " id="Consultas">
       <div class="card-title">Consultas</div>
       <small>Marque ou veja suas consultas já agendadas</small>
-      <button class="primary">➕ Agendar nova consulta</button>
-
-      <div class="sub-buttons">
-        <button class="disabled">🎥 Teleconsulta</button>
-        <button class="disabled">🏥 Consulta presencial</button>
+      <button class="primary" onclick="mostrarAgendamento()">➕ Agendar nova consulta</button>
+ 
+      <div id="opcoes" class="sub-buttons hidden">
+        <button class="botao">🎥 Teleconsulta</button>
+        <button class="botao">🏥 Consulta presencial</button>
       </div>
+    <div id="formulario" class="form-section hidden">
+      <h3>Informações da Consulta</h3>
+      <label for="especialidade">Especialidade:</label>
+      <select id="especialidade">
+        <option>Clínico Geral</option>
+        <option>Cardiologia</option>
+        <option>Dermatologia</option>
+        <option>Ginecologia</option>
+      </select>
+
+      <label for="data">Data:</label>
+      <input type="date" id="data" />
+
+      <label for="hora">Hora:</label>
+      <input type="time" id="hora" />
+      <div id="opcoes" class="sub-buttons">
+        <button class="botao">✅ Agendar Consulta</button>
+      </div>
+    </div>
+
 
       <button class="primary">📅 Visualizar minhas consultas</button>
     </section>
+ 
 
     <section class="card" id="Resultados">
       <div class="card-title">Resultados</div>
