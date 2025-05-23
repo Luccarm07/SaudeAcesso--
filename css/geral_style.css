@@ -147,4 +147,19 @@ header {
   margin-bottom: 10px;
 }
 
+  .hidden{
+    display: none;
+  }
+  
+  .form-section label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    .form-section input, .form-section select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
 
