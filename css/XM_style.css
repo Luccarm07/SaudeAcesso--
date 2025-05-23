@@ -59,8 +59,17 @@
     top: 550px;
     
 
-  }
 
 
   
+}
+
+.exames-lista {
+  justify-content: space-around;
+}
+
+.exame-card {
+  width: 80%;
+}
+
 }

@@ -51,10 +51,13 @@
 
   }
 
+  .resultados-container {
+  padding: 40px;
+}
 
+.exame-card {
+  width: 300px;
+}
 
-
-
-  }
-
+}
 
