@@ -65,10 +65,9 @@ Media queries foram usadas com base em pontos de quebra apropriados, organizadas
 
 | Nome | 
 |------|
-lucca 
-arthur 
-benitez
-
+Arthur Graciani Bezerra 
+Lucca Ramos Mussumecci
+Pedro Peres Binitez
 
 
 
