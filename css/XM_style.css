@@ -58,9 +58,6 @@
     width: 32%;
     top: 550px;
     
-
-
-
   
 }
 
@@ -71,5 +68,14 @@
 .exame-card {
   width: 80%;
 }
+
+.receitas-lista {
+  justify-content: space-around;
+}
+
+.receita-card {
+  width: 80%;
+}
+
 
 }
