@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLICITAÇÃO DE EXAME</title>
+    <link rel="stylesheet" href="css/geral_style.css" />
+    <link rel="stylesheet" href="css/XL_style.css" />
+    <link rel="stylesheet" href="css/XM_style.css" />
+    <link rel="stylesheet" href="css/XS_style.css" />
+
+</head>
+<body>
+    <header>
+        <div class="branding">
+            <h1>SOLICITAÇÃO DE EXAME</h1>
+        </div>
+    </header>
+ 
+   <!-- Conteúdo principal -->
+  <main class="exm-container">
+    <h2>Solicitar Exame</h2>
+    <form id="exm-form">
+      <label for="exm-nome">Nome do Paciente:</label>
+      <input type="text" id="exm-nome" placeholder="Digite seu nome" />
+
+      <label for="exm-tipo">Tipo de Exame:</label>
+      <input type="text" id="exm-tipo" placeholder="Digite ou selecione um exame" />
+
+      <label for="exm-detalhes">Observações (opcional):</label>
+      <textarea id="exm-detalhes" placeholder="Observações sobre o exame"></textarea>
+
+      <div id="exm-comuns">
+        <span class="exm-opcao">Hemograma</span>
+        <span class="exm-opcao">Raio-X</span>
+        <span class="exm-opcao">Eletrocardiograma</span>
+        <span class="exm-opcao">Ultrassonografia</span>
+        <span class="exm-opcao">Ressonância Magnética</span>
+        <span class="exm-opcao">Tomografia Computadorizada</span>
+        <span class="exm-opcao">Endoscopia</span>
+        <span class="exm-opcao">Colonoscopia</span>
+        <span class="exm-opcao">Glicemia</span>
+        <span class="exm-opcao">Exame de Urina</span>
+        <span class="exm-opcao">Mamografia</span>
+        <span class="exm-opcao">Teste de COVID-19</span>
+        <span class="exm-opcao">Sorologia</span>
+        <span class="exm-opcao">Papanicolau</span>
+        <span class="exm-opcao">Audiometria</span>
+      </div>
+
+      <button type="submit">Solicitar Exame</button>
+    </form>
+
+    <div id="exm-msg-sucesso" class="exm-msg exm-msg-sucesso">
+      Exame "<span id="exm-confirmado"></span>" para <strong><span id="exm-nome-confirmado"></span></strong> foi solicitado com sucesso!
+      <button id="exm-fechar-msg">✖</button>
+    </div>
+
+    <div id="exm-msg-erro" class="exm-msg exm-msg-erro"></div>
+
+    <h3>Exames Solicitados</h3>
+    <ul id="exm-lista"></ul>
+  </main>
+
+    <footer>
+        <nav class="footer-menu">
+            <a href="index.html">🏠 Início</a>
+            <a href="integrantes.html">📅 Integrantes</a>
+            <a href="faq.html">💬 Perguntas Frequentes</a>
+            <a href="contatos.html"> 📞 Contatos</a>
+        </nav>
+
+    </footer>
+    
+</body>
+<script src="script/script.js" ></script>
+</html>

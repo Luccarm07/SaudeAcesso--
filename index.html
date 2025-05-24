@@ -4,10 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Saúde e Acesso</title>
-  <link rel="stylesheet" href="SaudeAcesso/css/geral_style.css" />
-  <link rel="stylesheet" href="SaudeAcesso/css/XL_style.css" />
-  <link rel="stylesheet" href="SaudeAcesso/css/XM_style.css" />
-  <link rel="stylesheet" href="SaudeAcesso/css/XS_style.css" />
+  <link rel="stylesheet" href="css/geral_style.css" />
+  <link rel="stylesheet" href="css/XL_style.css" />
+  <link rel="stylesheet" href="css/XM_style.css" />
+  <link rel="stylesheet" href="css/XS_style.css" />
 </head>
 <body>
   <!-- Header com logo e botão do assistente -->
@@ -29,45 +29,73 @@
     <section class="card " id="Consultas">
       <div class="card-title">Consultas</div>
       <small>Marque ou veja suas consultas já agendadas</small>
-      <button class="primary">➕ Agendar nova consulta</button>
-
-      <div class="sub-buttons">
-        <button class="disabled">🎥 Teleconsulta</button>
-        <button class="disabled">🏥 Consulta presencial</button>
+      <button class="primary" onclick="mostrarAgendamento()">➕ Agendar nova consulta</button>
+ 
+      <div id="opcoes" class="sub-buttons hidden">
+        <button class="botao" data-tipo="Teleconsulta">🎥 Teleconsulta</button>
+        <button class="botao" data-tipo="Consulta Presencial">🏥 Consulta presencial</button>
       </div>
-
-      <button class="primary">📅 Visualizar minhas consultas</button>
+    <div id="formulario" class="form-section hidden">
+      <h3>Informações da Consulta</h3>
+      <label for="especialidade">Especialidade:</label>
+      <select id="especialidade">
+        <option>Clínico Geral</option>
+        <option>Cardiologia</option>
+        <option>Dermatologia</option>
+        <option>Ginecologia</option>
+      </select>
+ 
+      <label for="data">Data:</label>
+      <input type="date" id="data" />
+ 
+      <label for="hora">Hora:</label>
+      <input type="time" id="hora" />
+      <div class="sub-buttons">
+        <button class="botao">✅ Agendar Consulta</button>
+      </div>
+    </div>
+      <div id="consulta-msg-erro" class="exm-msg exm-msg-erro">
+        <span id="consulta-erro-texto"></span>
+        <button id="consulta-fechar-msg">✖</button>
+      </div>
+      <button class="primary" id="Vmc">📅 Minhas consultas</button>
+     
     </section>
 
-    <section class="card" id="Resultados" >
+    <section class="card" id="Resultados">
       <div class="card-title">Resultados</div>
       <small>Veja seus resultados dos exames</small>
-      <button class="primary">🧪 Ver resultados</button>
+      <a href="Resultados.html"><button class="primary">🧪 Ver resultados</button></a>
     </section>
 
     <section class="card" id="Receitas">
       <div class="card-title">Receitas</div>
       <small>Veja suas receitas médicas</small>
-      <button class="primary">💊 Ver receitas</button>
+      <a href="Receitas.html"><button class="primary">💊 Ver receitas</button></a>
     </section>
 
     <section class="card" id="Solicitação_De_Exame">
       <div class="card-title">Solicitação De Exame</div>
       <small>Solicite seu exame</small>
-      <button class="primary">📄 Solicitar exame</button>
+      <a href="SolicitacaoExame.html"><button class="primary">📄 Solicitar exame</button></a>
     </section>
   </main>
-  <footer>
-     <!-- Navbar inferior estilo app -->
-  <nav class="bottom-nav">
-    <button class="nav-item active">🏠 Início</button>
-    <button class="nav-item">📅 Contatos</button>
-    <button class="nav-item">💬 FAQ </button>
-    
-  </nav>
 
-  </footer>
+  
+     <!-- Navbar inferior estilo app -->
+ 
+  <footer>
+  <nav class="footer-menu">
+    <a href="index.html">🏠 Início</a>
+    <a href="integrantes.html">📅 Integrantes</a>
+    <a href="faq.html">💬 Perguntas Frequentes</a>
+    <a href="contatos.html"> 📞 Contatos</a>
+  </nav>
+</footer>
+
+
+  
 </body>
-<script src="SaudeAcesso/script/script.js" defer></script>
+<script src="script/script.js" ></script>
 
 </html>

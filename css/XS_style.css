@@ -23,6 +23,27 @@
 
   .primary {
     font-size: 0.95rem;
-    background-color: aliceblue;
+   
   }
+
+  .exames-lista {
+  flex-direction: column;
+  align-items: center;
+}
+
+.exame-card {
+  width: 90%;
+}
+
+.receitas-lista {
+  flex-direction: column;
+  align-items: center;
+}
+
+.receita-card {
+  width: 90%;
+}
+
+
+
 }
